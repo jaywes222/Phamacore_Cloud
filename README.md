@@ -63,11 +63,11 @@ The **phAMACore Cloud Activation** project is a web application designed to faci
 └── vite.config.js       # Vite configuration file
 
 ## Acknowledgements
-.React Hook Form for making form management easy.
-.Zod for robust and type-safe schema validation.
-.Axios for seamless HTTP requests.
-.React Toastify for smooth notification management.
-.Tailwind CSS for rapid and modern styling.
+- React Hook Form for making form management easy.
+- Zod for robust and type-safe schema validation.
+- Axios for seamless HTTP requests.
+- React Toastify for smooth notification management.
+- Tailwind CSS for rapid and modern styling.
 
 
 
