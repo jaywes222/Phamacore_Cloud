@@ -4,6 +4,11 @@
 
 The **phAMACore Cloud Activation** project is a web application designed to facilitate user registration and subscription activation for the phAMACore cloud platform. It provides a form for users to input their details, validates the inputs, and interacts with the backend to activate their subscriptions.
 
+## Screens
+![Alt text](src/assets/Capture.PNG)
+![Alt text](src/assets/Capture2.PNG)
+
+
 ## Features
 
 - **User Registration Form:** Users can input their email, username, password, and phone number.
