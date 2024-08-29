@@ -34,8 +34,8 @@ The **phAMACore Cloud Activation** project is a web application designed to faci
 
 1. **Clone the repository:**
    ```bash
-  git clone https://github.com/yourusername/phamacore-cloud-activation.git
-  cd phamacore-cloud-activation
+   git clone https://github.com/jaywes222/Phamacore_Cloud.git
+   cd Phamacore_Cloud
 
 2. **Install Dependencies:**
    ```bash
