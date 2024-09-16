@@ -12,6 +12,7 @@ import PackageInfo from './PackageInfo';
 import PasswordField from './PasswordField';
 import PhoneField from './PhoneField';
 import TermsSection from './TermsSection';
+import Jack from './Jack';
 
 const schema = z.object({
 	email: z.string().email({ message: 'Please enter a valid Email.' }),
@@ -264,6 +265,8 @@ const WelcomePage = () => {
 			</div>
 
 			<ToastContainer position="top-center" />
+
+			<Jack />
 		</div>
 	);
 };
