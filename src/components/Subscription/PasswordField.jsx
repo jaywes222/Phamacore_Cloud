@@ -13,7 +13,7 @@ const PasswordField = forwardRef(({ label, name, value, onChange, showPassword, 
                 value={value}
                 onChange={onChange}
                 ref={ref}
-                className="block mt-1 w-full p-2 border rounded-lg focus:ring-2 focus:ring-caramel pr-10"
+                className="block mt-1 w-full p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-caramel-caramel pr-10"
                 required
                 aria-invalid={!!error}
             />
@@ -32,6 +32,6 @@ const PasswordField = forwardRef(({ label, name, value, onChange, showPassword, 
     </div>
 ));
 
-PasswordField.displayName = 'PasswordField'; // Helps with debugging
+PasswordField.displayName = 'PasswordField'; 
 
 export default PasswordField;

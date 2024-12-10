@@ -1,20 +1,19 @@
-import React from 'react';
-
+/* eslint-disable react/prop-types */
 const TermsSection = ({ termsChecked, onChange }) => (
     <>
         <div className="text-gray-700 text-sm mb-4 mt-10">
             <p>
-                By confirming this purchase, I agree to the CoreBase Solutions phAMACoreCloud Agreement.
+                By Activating My Account, I agree to the CoreBase Solutions phAMACoreCloud Agreement.
                 <br/>
-                <strong>Your annual subscription begins today.</strong> 
-                <br/>
+                <strong>My Subscription begins Today.</strong> 
+                <br/><br />
                 <em>Check your confirmation email for details.</em>
             </p>
             <br/>
             <p>
-                I understand I am also creating a new phAMACoreCloud account. 
-                By signing up to create an account and subsequent user accounts I accept phAMACoreCloud Terms of Use and Privacy Policy as shared in your contract,
-                including the processing of your personal data.
+                I understand I am also creating a new phAMACoreCloud Account. 
+                By signing up to create an account and subsequent user accounts I accept phAMACoreCloud Terms of Use and Privacy Policy as shared in phAMACoreCloud contract,
+                including the processing of my personal data.
             </p>
         </div>
         <div className="mt-6 w-full flex flex-col items-start">

@@ -1,11 +1,10 @@
-import React from 'react';
-import WelcomePage from './components/WelcomePage';
+import HomePage from './components/HomePage';
 
 
 const App = () => {
 	return (
 		<div className="App">
-			<WelcomePage />
+			<HomePage />
 		</div>
 	);
 };

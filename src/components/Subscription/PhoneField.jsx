@@ -11,7 +11,7 @@ const PhoneField = ({ label, value, onChange, error }) => (
             onChange={onChange}
             inputProps={{
                 required: true,
-                className: 'block mt-1 w-full p-2 border rounded-lg focus:ring-2 focus:ring-caramel',
+                className: 'block mt-1 w-full p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-caramel-caramel',
             }}
             masks={{ke: '... ... ...'}}
             containerStyle={{ width: '100%' }}

@@ -1,23 +1,38 @@
-# phAMACore Cloud Activation
+# phAMACore™ Cloud
 
-## Overview
+**phAMACore™ Cloud** is a modern, interactive web application for managing multi-step processes, such as document uploads and account activation, in a user-friendly interface. This project leverages React, Ant Design icons, and Toastify for a smooth and visually appealing experience.
 
-The **phAMACore Cloud Activation** project is a web application designed to facilitate user registration and subscription activation for the phAMACore cloud platform. It provides a form for users to input their details, validates the inputs, and interacts with the backend to activate their subscriptions.
-
-## Screens
-![Alt text](src/assets/Capture.PNG)
-![Alt text](src/assets/Capture2.PNG)
-
+---
 
 ## Features
 
-- **User Registration Form:** Users can input their email, username, password, and phone number.
-- **Form Validation:** All input fields are validated using `react-hook-form` and `zod`, with custom error messages.
-- **API Integration:** The application fetches company details and activates subscriptions via API requests.
-- **Dynamic Customer Code Handling:** The application dynamically handles customer codes from URL parameters.
-- **Loading and Error States:** Users are provided feedback during data fetching and form submission, with appropriate error messages and loading indicators.
-- **Notifications:** Success and error notifications are displayed using `react-toastify`.
-- **Form Reset:** The form resets its input fields upon error, allowing users to re-enter correct information.
+- **Step-by-Step Navigation**: A guided flow with clear instructions for each step.
+- **File Upload**: Separate components for uploading training and master documents.
+- **Account Activation**: Complete the process with ease using subscription forms.
+- **Dynamic UI Updates**: Real-time progress tracking and navigation between steps.
+- **Toast Notifications**: Alerts for success, errors, or important messages.
+
+---
+
+## Demo
+
+Below are Screenshots of the app's interface at various steps:
+
+### 1. Welcome Page
+The homepage greets the user with the app logo and title.  
+![Welcome Page](./Screenshots/HomePage.PNG)
+
+### 2. Step Indicator
+The stepper shows the current progress and allows navigation between steps.  
+![Step Indicator](./Screenshots/Stepper.PNG)
+
+### 3. Upload Training Sheet
+Users can upload the required training documents.  
+![Upload Training Sheet](./Screenshots/Upload.PNG)
+
+### 4. Account Activation
+Complete the final step to activate the account.  
+![Account Activation](./Screenshots/AccActivate.PNG)
 
 ## Tech Stack
 
@@ -27,6 +42,7 @@ The **phAMACore Cloud Activation** project is a web application designed to faci
 - **Zod**: A TypeScript-first schema declaration and validation library.
 - **Axios**: A promise-based HTTP client for making API requests.
 - **React Toastify**: For displaying toast notifications.
+- **Ant Design Icons**: Pre-designed icons for a professional look.
 - **Tailwind CSS**: For styling the application.
 - **Vite**: A fast build tool and development server.
 
@@ -56,16 +72,22 @@ The **phAMACore Cloud Activation** project is a web application designed to faci
 
 ## Project Structure
 
-├── public               # Public assets (e.g., images, index.html)
-├── src
-│   ├── assets           # Images and static assets
-│   ├── components       # React components
-│   ├── pages            # React pages
-│   ├── App.jsx          # Main application component
-│   ├── index.jsx        # Entry point for React
-│   └── styles           # Global styles (if any)
-├── package.json         # Project metadata and dependencies
-└── vite.config.js       # Vite configuration file
+src/
+├── assets/                     # Static assets like images and logos
+│   └── phamacoreLogo.PNG
+├── components/
+│   ├── Stepper/                # Stepper components
+│   │   ├── StepContent.js
+│   │   ├── StepIndicator.js
+│   │   └── StepNavigation.js
+│   ├── Subscription/           # Subscription form
+│   │   └── SubscriptionForm.js
+│   └── Upload/                 # Upload form
+│       └── UploadForm.js
+├── App.css                     # Styles
+├── App.js                      # Root component
+└── index.js                    # Entry point
+
 
 ## Acknowledgements
 - React Hook Form for making form management easy.
