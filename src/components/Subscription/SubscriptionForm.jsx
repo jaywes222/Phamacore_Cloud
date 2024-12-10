@@ -176,7 +176,7 @@ const SubscriptionForm = () => {
                     error={errors.email?.message}
                     />
                     <InputField
-                        label="Second Email (Optional)"
+                        label="Business Email (Optional)"
                         type="text"
                         {...register('email')}
                         onBlur={() => trigger('email')}
